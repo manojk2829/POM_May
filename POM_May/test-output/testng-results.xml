@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35172" started-at="2018-05-26T09:58:42Z" finished-at="2018-05-26T09:59:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35172" started-at="2018-05-26T09:58:42Z" finished-at="2018-05-26T09:59:17Z">
+      <class name="TestCases_POM.Welcome_Test">
+        <test-method status="PASS" signature="Orange_Admin_Tab(java.util.Hashtable)[pri:1, instance:TestCases_POM.Welcome_Test@362045c0]" name="Orange_Admin_Tab" duration-ms="13128" started-at="2018-05-26T15:28:42Z" data-provider="getdata" finished-at="2018-05-26T15:28:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Actual_Result=Agency Dashboard, user=Admin, password=admin, Runmode=Y, Expected_Result=Agency Dashboard, Result=Actual result matched by Expected Result -- Pass, Browser=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Orange_Admin_Tab -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases_POM.Welcome_Test@362045c0]" name="tearDown" is-config="true" duration-ms="3901" started-at="2018-05-26T15:28:55Z" finished-at="2018-05-26T15:28:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Orange_Admin_button_Open_Admin_User_Grid(java.util.Hashtable)[pri:2, instance:TestCases_POM.Welcome_Test@362045c0]" name="Orange_Admin_button_Open_Admin_User_Grid" duration-ms="14434" started-at="2018-05-26T15:28:59Z" data-provider="getdata" finished-at="2018-05-26T15:29:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Actual_Result=Agency Dashboard, user=Admin, password=admin, Runmode=Y, Expected_Result=Agency Dashboard, Result=Actual result matched by Expected Result -- Pass, Browser=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Orange_Admin_button_Open_Admin_User_Grid -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases_POM.Welcome_Test@362045c0]" name="tearDown" is-config="true" duration-ms="3708" started-at="2018-05-26T15:29:13Z" finished-at="2018-05-26T15:29:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases_POM.Welcome_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
